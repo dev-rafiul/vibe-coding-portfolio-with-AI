@@ -135,7 +135,7 @@ const Hero = () => {
 
             {/* Orbiting Social Links */}
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/dev-rafiul" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link orbital"
@@ -148,7 +148,7 @@ const Hero = () => {
             </a>
             
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://linkedin.com/in/dev-rafi" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link orbital"
@@ -161,7 +161,7 @@ const Hero = () => {
             </a>
             
             <a 
-              href="https://twitter.com/yourusername" 
+              href="https://twitter.com/rafiulX" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link orbital"
@@ -174,7 +174,7 @@ const Hero = () => {
             </a>
             
             <a 
-              href="https://facebook.com/yourusername" 
+              href="https://facebook.com/devrafiul0" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link orbital"

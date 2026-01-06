@@ -27,10 +27,9 @@ const About = () => (
             </div>
             <div className="space-y-4 text-slate-300 leading-relaxed">
               <p>
-                My journey into the digital gravity field began with curiosity about how web universes are constructed. 
-                What started as basic HTML/CSS planetary formation evolved into mastering the gravitational forces of 
-                React.js, Node.js, and database orbital mechanics. Through continuous learning cycles, I've developed 
-                the ability to manipulate digital gravity and create weightless user experiences.
+               I was curious about how websites actually work, not just how they look. That curiosity quickly turned into discipline. I began with HTML and CSS, moved into JavaScript, and then started building real projects—breaking things, fixing them, and learning why they broke in the first place.
+
+There were days when tutorials felt easy and days when logic felt impossible. Instead of quitting, I doubled down. I focused on understanding fundamentals, writing code every day, and building projects that forced me to think, not just copy.
               </p>
             </div>
           </div>
@@ -80,7 +79,7 @@ const About = () => (
                   <div className="absolute inset-0 border-2 border-indigo-400/50 rounded-full orbital"></div>
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-indigo-400">3.7+ Years</p>
+                  <p className="text-2xl font-bold text-indigo-400">2.7+ Years</p>
                   <p className="text-slate-400 gravity-font">Gravitational Experience</p>
                 </div>
               </div>
@@ -93,7 +92,7 @@ const About = () => (
                   <div className="absolute inset-0 border-2 border-green-400/50 rounded-full orbital" style={{animationDirection: 'reverse'}}></div>
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-green-400">25+ Projects</p>
+                  <p className="text-2xl font-bold text-green-400">13+ Projects</p>
                   <p className="text-slate-400 gravity-font">Successful Launches</p>
                 </div>
               </div>
@@ -141,7 +140,7 @@ const About = () => (
             <div className="space-y-3">
               <div className="flex justify-between text-xs gravity-font">
                 <span className="text-slate-400">CREATIVITY_LEVEL:</span>
-                <span className="text-indigo-400">95%</span>
+                <span className="text-indigo-400">65%</span>
               </div>
               <div className="flex justify-between text-xs gravity-font">
                 <span className="text-slate-400">PROBLEM_SOLVING:</span>

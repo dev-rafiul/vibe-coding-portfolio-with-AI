@@ -350,8 +350,20 @@ body::before {
 }
 
 /* Project Cards - Planetary Bodies */
-.project-card {
-  @apply gravity-card floating-slow;
+
+/* .project-card {
+@apply gravity-card floating-slow;
+
+} */
+@layer components {
+  .project-card {
+    background: linear-gradient(135deg,
+      rgba(30, 41, 59, 0.8),
+      rgba(15, 23, 42, 0.9)
+    );
+    border-radius: 20px;
+    animation: float 8s ease-in-out infinite;
+  }
 }
 
 /* Navigation - Space Station */
@@ -367,6 +379,7 @@ body::before {
 /* Smooth scrolling with gravity effect */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Account for fixed navbar */
 }
 
 /* Custom scrollbar - Gravity Stream */
@@ -430,6 +443,60 @@ input::placeholder, textarea::placeholder {
   
   .gravity-card {
     margin: 10px 0;
+  }
+  
+  .section-title {
+    @apply text-3xl mb-12;
+  }
+  
+  /* Mobile navigation improvements */
+  .nav-gravity {
+    backdrop-filter: blur(15px);
+  }
+  
+  /* Ensure mobile menu is properly positioned */
+  .mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 40;
+  }
+  
+  /* Mobile menu panel */
+  .mobile-menu-panel {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+  
+  /* Prevent body scroll when mobile menu is open */
+  body.menu-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    @apply text-2xl mb-10;
+  }
+  
+  .btn, .btn-outline {
+    @apply px-6 py-3 text-sm;
+  }
+  
+  /* Smaller orbital animations on very small screens */
+  .orbital {
+    animation-duration: 12s;
   }
 }
 
