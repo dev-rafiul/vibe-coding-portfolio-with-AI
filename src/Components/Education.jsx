@@ -41,13 +41,13 @@ const Education = () => (
                 </svg>
               </div>
               <div>
-                <h3 className="text-2xl font-bold robot-font text-cyan-400">BSc_COMPUTER_SCIENCE.EXE</h3>
-                <p className="text-lg text-purple-400 font-mono">University_of_Technology</p>
+                <h3 className="text-2xl font-bold robot-font text-cyan-400">JSC_In_SCHOOL</h3>
+                <p className="text-lg text-purple-400 font-mono">Regular</p>
               </div>
             </div>
             <div className="text-right">
-              <div className="robot-font text-gray-300 font-medium">2020.01 - 2024.12</div>
-              <div className="text-sm text-green-400 font-mono">CGPA: 3.75/4.00</div>
+              <div className="robot-font text-gray-300 font-medium">2019.01 - 2019.12</div>
+              <div className="text-sm text-green-400 font-mono">CGPA: 3.71/5.00</div>
             </div>
           </div>
           
@@ -77,24 +77,24 @@ const Education = () => (
                 </svg>
               </div>
               <div>
-                <h3 className="text-2xl font-bold robot-font text-green-400">HSC_SCIENCE.PROTOCOL</h3>
+                <h3 className="text-2xl font-bold robot-font text-green-400">SSC_COMMERCE.PROTOCOL</h3>
                 <p className="text-lg text-purple-400 font-mono">Science_Academy_Institute</p>
               </div>
             </div>
             <div className="text-right">
-              <div className="robot-font text-gray-300 font-medium">2018.01 - 2020.12</div>
-              <div className="text-sm text-green-400 font-mono">GPA: 5.00/5.00</div>
+              <div className="robot-font text-gray-300 font-medium">2021.01 - 2022.03</div>
+              <div className="text-sm text-green-400 font-mono">GPA: 4.21/5.00</div>
             </div>
           </div>
           
           <div className="space-y-4 font-mono text-gray-300">
             <div>
               <span className="text-yellow-400 robot-font">[SPECIALIZATION]:</span> 
-              <span className="ml-2">Science_Background</span>
+              <span className="ml-2">Commerce_Background</span>
             </div>
             <div>
               <span className="text-cyan-400 robot-font">[CORE_SUBJECTS]:</span> 
-              <span className="ml-2">Physics • Chemistry • Mathematics • Biology • ICT_Systems</span>
+              <span className="ml-2"> Mathematics • ICT_Systems</span>
             </div>
             <div>
               <span className="text-purple-400 robot-font">[FOUNDATION]:</span> 

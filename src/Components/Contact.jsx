@@ -48,7 +48,7 @@ const Contact = () => {
                   <div>
                     <p className="text-gray-600 text-sm">Email</p>
                     <a href="mailto:your.email@example.com" className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
-                      your.email@example.com
+                      rafiulislam040@gmail.com
                     </a>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                   <div>
                     <p className="text-gray-600 text-sm">Phone</p>
                     <a href="tel:+8801XXXXXXXXX" className="text-lg font-semibold text-gray-800 hover:text-green-600 transition-colors">
-                      +880 1XXX-XXXXXX
+                      +880 1903168428
                     </a>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                   <div>
                     <p className="text-gray-600 text-sm">WhatsApp</p>
                     <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-gray-800 hover:text-green-600 transition-colors">
-                      +880 1XXX-XXXXXX
+                      +880 1903168428
                     </a>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-4">Follow Me</h3>
               <div className="flex gap-4">
                 <a 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/dev-rafiul" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="social-link"
@@ -101,7 +101,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/in/yourusername" 
+                  href="https://linkedin.com/in/dev-rafi" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="social-link"
@@ -112,7 +112,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://twitter.com/yourusername" 
+                  href="https://twitter.com/rafiulX" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="social-link"

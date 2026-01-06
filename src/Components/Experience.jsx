@@ -16,10 +16,10 @@ const Experience = () => (
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-800">Frontend Developer</h3>
-                    <p className="text-blue-600 font-semibold">Tech Solutions Inc.</p>
+                    <p className="text-blue-600 font-semibold">Learn On.</p>
                   </div>
                   <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full mt-2 sm:mt-0">
-                    Jan 2024 - Present
+                    Jan 2025 - Present
                   </span>
                 </div>
                 <ul className="text-gray-600 space-y-2">
@@ -45,17 +45,14 @@ const Experience = () => (
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-800">Full Stack Developer (Freelance)</h3>
-                    <p className="text-green-600 font-semibold">Various Clients</p>
+                    <p className="text-green-600 font-semibold"></p>
                   </div>
                   <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full mt-2 sm:mt-0">
                     Jun 2023 - Dec 2023
                   </span>
                 </div>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Built 8+ complete web applications for small businesses</li>
-                  <li>• Designed and implemented database schemas using MongoDB</li>
-                  <li>• Created RESTful APIs with authentication and authorization</li>
-                  <li>• Delivered projects on time with 100% client satisfaction</li>
+                  
                 </ul>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">MERN Stack</span>
@@ -73,8 +70,8 @@ const Experience = () => (
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-800">Web Development Intern</h3>
-                    <p className="text-purple-600 font-semibold">Digital Agency XYZ</p>
+                    <h3 className="text-xl font-bold text-gray-800"></h3>
+                    <p className="text-purple-600 font-semibold"></p>
                   </div>
                   <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full mt-2 sm:mt-0">
                     Jan 2023 - May 2023

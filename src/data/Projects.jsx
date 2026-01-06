@@ -1,11 +1,11 @@
 export const projects = [
   {
     id: "1",
-    name: "Quantum Commerce Hub",
+    name: "Skillswap",
     image: "/project1.jpg",
     tech: ["React.js", "Node.js", "MongoDB", "Stripe API", "Tailwind CSS", "JWT"],
     description: "An advanced e-commerce platform featuring quantum-level user authentication, gravitational product management, orbital shopping cart mechanics, and zero-gravity payment processing. Built with futuristic technologies and responsive holographic design for seamless multi-dimensional shopping experiences.",
-    live: "https://quantum-commerce.netlify.app",
+    live: "https://chic-puffpuff-ba6a49.netlify.app/",
     github: "https://github.com/yourusername/quantum-commerce-client",
     challenges: "Implementing secure quantum payment protocols, managing complex gravitational state for cart functionality, optimizing performance for massive product catalogs across multiple dimensions, and creating seamless orbital navigation systems.",
     future: "Add multi-vendor space stations, implement advanced search with AI-powered filters, integrate quantum-powered product recommendations, develop mobile app with augmented reality features, and add blockchain-based loyalty rewards system."
