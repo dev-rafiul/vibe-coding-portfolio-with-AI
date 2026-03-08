@@ -79,11 +79,7 @@ const Navbar = () => {
               {/* Logo Icon */}
               <div className="relative">
                 <div className="w-10 h-10 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg flex items-center justify-center relative floating">
-                  <div className="w-6 h-6 bg-white rounded-sm transform rotate-45 relative">
-                    <div className="absolute inset-1 bg-slate-900 rounded-sm transform -rotate-45"></div>
-                  </div>
-                  {/* Orbital Ring */}
-                  <div className="absolute inset-0 w-10 h-10 border border-indigo-400/30 rounded-lg orbital opacity-60"></div>
+                
                 </div>
               </div>
             </a>
