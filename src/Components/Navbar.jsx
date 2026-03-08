@@ -69,14 +69,14 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo/Brand */}
+          
           <div className="flex-shrink-0">
             <a 
               href="#home" 
               className="flex items-center gap-3 group"
               onClick={(e) => handleNavClick(e, '#home')}
             >
-              {/* Logo Icon */}
+              
               <div className="relative">
                 <div className="w-10 h-10 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg flex items-center justify-center relative floating">
                 
