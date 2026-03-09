@@ -73,7 +73,7 @@ export default function Navbar() {
         }
       `}</style>
 
-      {/* STICKY NAVBAR */}
+    
       <nav
         className="max-w-7xl mx-auto rounded-2xl mt-4 fixed top-0 left-0 right-0 z-50 transition-all duration-300"
         style={{
@@ -91,13 +91,12 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
 
-          {/* Logo */}
+          
           <a href="#" className="flex flex-col items-start select-none">
             <span className="logo-sub">developer —</span>
             <span className="logo-main">RAFIUL</span>
           </a>
 
-          {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
             <Link to={"/"} className="nav-link">HOME</Link>
             <Link to={"/about"} className="nav-link">ABOUT</Link>

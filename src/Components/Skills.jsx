@@ -69,7 +69,7 @@ const Skills = () => {
         </div>
         
         <div className="grid lg:grid-cols-3 gap-12">
-          {/* Frontend Gravity Well */}
+       
           <div className="gravity-card p-8 floating-slow">
             <div className="flex items-center mb-10">
               <div className="w-20 h-20 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full flex items-center justify-center mr-6 relative floating">
