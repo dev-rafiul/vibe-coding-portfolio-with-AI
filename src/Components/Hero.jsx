@@ -21,6 +21,8 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex flex-col items-center justify-center text-center relative overflow-hidden">
+
+
       {/* Gravitational Field Background */}
       <div className="absolute inset-0 pointer-events-none">
         {particles.map(particle => (
